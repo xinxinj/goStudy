@@ -14,9 +14,13 @@ type RandNum struct {
 
 func main() {
 	var num RandNum
+	fmt.Print("随机数：")
 	fmt.Println(num.RandomValues())
+	fmt.Print("最大值：")
 	fmt.Println(num.Max())
+	fmt.Print("最小值：")
 	fmt.Println(num.Min())
+	fmt.Print("平均数：")
 	fmt.Println(num.Average())
 	if num.CheckNum() {
 		fmt.Println("There's 55 in the array")
