@@ -21,6 +21,6 @@ func main() {
 	fmt.Println("length of e(int32): ", unsafe.Sizeof(e))
 	var f int64 = 12
 	fmt.Println("length of f(int64): ", unsafe.Sizeof(f))
-	
+
 	fmt.Print("结束！")
 }
